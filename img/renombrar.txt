@@ -1,0 +1,7 @@
+$inicio = 459
+$i = $inicio
+
+Get-ChildItem -Filter *.jpg | Sort-Object Name | ForEach-Object {
+    git mv $_.Name ("{0}.jpg" -f $i)
+    $i++
+}

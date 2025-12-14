@@ -1,39 +1,25 @@
-﻿<!doctype html><html lang='es'><head>
-<meta charset='utf-8'>
-<meta name='viewport' content='width=device-width,initial-scale=1'>
+﻿<!doctype html><html lang="es"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Pendientes Artesanales Marysol</title>
 <style>
-  body{margin:0;font-family:system-ui,Arial;background:linear-gradient(135deg,#0d0d0d,#202020);color:#eee;text-align:center;min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:20px}
-  header{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;width:100%;max-width:900px;margin-bottom:20px;text-align:center;}
-  header h1{font-size:2rem;font-weight:700;margin:0 auto}
-  .contact-icons{display:flex;gap:12px;align-items:center;}
-  .contact-icons a{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:50%;background:rgba(255,255,255,0.1);color:#0af;font-size:18px;text-decoration:none;position:relative;transition:background 0.3s,transform 0.2s}
-  .contact-icons a.whatsapp{color:#25D366;}
-  .contact-icons a:hover{background:rgba(255,255,255,0.25);transform:scale(1.1)}
-  .contact-icons a::after{content:attr(title);position:absolute;bottom:-28px;left:50%;transform:translateX(-50%);background:#000;color:#fff;font-size:12px;padding:4px 8px;border-radius:4px;opacity:0;pointer-events:none;transition:opacity 0.3s;white-space:nowrap;}
-  .contact-icons a:hover::after{opacity:0.9;}
-  @media(max-width:650px){
-    header{flex-direction:column;text-align:center;}
-    .contact-icons{justify-content:center;margin-top:5px;}
-  }
+  body{margin:0;font-family:system-ui,Arial;background:linear-gradient(135deg,#0d0d0d,#202020);color:#eee;text-align:center;min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center}
+  h1{font-size:2rem;font-weight:700;letter-spacing:0.5px;margin-bottom:10px}
   p{font-size:1.1rem;color:#bbb;max-width:600px;margin-bottom:30px}
   img.logo{display:block;margin:30px auto;max-width:280px;border-radius:12px;box-shadow:0 0 20px rgba(0,0,0,0.5)}
   .button{display:inline-block;background:#0af;color:white;padding:12px 26px;border-radius:8px;font-size:1.1rem;text-decoration:none;font-weight:600;transition:background 0.3s}
   .button:hover{background:#09f}
-  footer{position:fixed;bottom:10px;font-size:0.8rem;color:#777;text-align:center;width:100%}
+  .contact-bar{position:absolute;top:18px;right:25px;display:flex;gap:10px;font-size:0.95rem}
+  .contact-bar a{color:#0af;text-decoration:none;font-weight:600;padding:6px 10px;border-radius:6px;background:rgba(255,255,255,0.08);transition:background 0.3s}
+  .contact-bar a:hover{background:rgba(255,255,255,0.2)}
+  footer{position:fixed;bottom:10px;font-size:0.8rem;color:#777}
 </style></head><body>
-
-<header>
-  <h1>Pendientes Artesanales Marysol</h1>
-  <div class='contact-icons'>
-    <a href='mailto:marisafernandezcalderon@hotmail.com' class='email' title='Email'>📧</a>
-    <a href='https://wa.me/34637905688' target='_blank' class='whatsapp' title='WhatsApp'>💬</a>
-  </div>
-</header>
-
+<div class="contact-bar">
+  <a href="mailto:adridbarents@gmail.com">📧 Email</a>
+  <a href="https://wa.me/34696330215" target="_blank">💬 WhatsApp</a>
+</div>
+<h1>Pendientes Artesanales Marysol</h1>
 <p>Descubre nuestras colecciones de pendientes artesanales, hechos a mano con amor y dedicación. Cada pieza es única, creada para resaltar tu estilo.</p>
-<a href='catalogo_1.html'><img src='img/novedad.jpg' alt='logo' class='logo'></a>
-<a href='catalogo_1.html' class='button'>Ver catálogo completo</a>
-
+<a href="catalogo_1.html"><img src="img/novedad.jpg" alt="logo" class="logo"></a>
+<a href="catalogo_1.html" class="button">Ver catálogo completo</a>
 <footer>© 2025 Pendientes Artesanales Marysol</footer>
 </body></html>
